@@ -1,0 +1,45 @@
+.inputForm{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 60px;
+}
+
+.firstForm{
+    display: flex;
+    align-content: space-around;
+}
+
+.firstForm .form-control{
+    width: 25%;
+}
+
+.secondForm{
+    display: flex;
+    align-content: space-around;
+}
+
+.secondForm .form-control{
+    width: 25%;
+}
+
+.form-control{
+    height: 25px;
+}
+
+.contactsTable{
+    width: 80%;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+
+table{
+    text-align: center;
+}
+
+.formSubmit{
+    margin-left: 50px;
+}
+

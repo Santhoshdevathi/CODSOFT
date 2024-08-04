@@ -1,0 +1,63 @@
+.main{
+    border: 1px solid;
+    border-radius: 5px;
+    width: 60%;
+    margin-left: 280px;
+}
+
+
+.scores{
+    display: flex;
+    align-content: space-around;
+}
+
+.choices{
+    display: flex;
+    align-content: space-around;
+}
+
+.yourScore{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.computerScore{
+    margin-top: 5px;
+    margin-left: 350px;
+}
+
+.yourChoice{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.computerChoice{
+    margin-top: 5px;
+    margin-left: 290px;
+}
+
+.nextRound{
+    margin-left: 560px;
+}
+
+.finalButtons{
+    margin-top: 50x;
+    display: flex;
+    align-content: space-around;
+}
+
+.newGame{
+    margin-left: 550px;
+    margin-top: 20px;
+}
+
+.quit{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.divider{
+    width: 40%;
+    margin-left: 390px;
+    margin-top: 30px;
+}

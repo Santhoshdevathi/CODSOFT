@@ -1,0 +1,27 @@
+.inputForm{
+    width: 50%;
+    margin-left: 320px;
+    margin-top: 140px;
+    border: 1px solid;
+    border-radius: 5px;
+    z-index: 3;
+
+}
+
+.form-group{
+    width: 90%;
+}
+
+.btn{
+    margin-left: 280px;
+}
+
+.form-control{
+    margin-left: 10px;
+}
+
+.form-label{
+    margin-left: 10px;
+    font-size: larger;
+}
+
