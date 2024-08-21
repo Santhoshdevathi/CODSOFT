@@ -1,8 +1,13 @@
+body{
+    background-image: url(https://cdn.vectorstock.com/i/1000v/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.avif);
+}
+
 .inputForm{
     width:60%;
     border: 1px solid;
     border-radius: 5px;
     margin-left: 220px;
+    background: rgba(255,255,255,0.4)
 }
 
 .btn{

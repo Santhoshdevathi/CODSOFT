@@ -9,35 +9,35 @@
     <title>Game status</title>
 </head>
 <body>
-    <h1 class="text-center text-primary">Trace your game</h1>
+    <h1 class="text-center text-light">Trace your game</h1>
     <div class="main mt-5">
         <div class="scores">
             <div class="yourScore">
-                <h4>Your score:{{yourScore}}</h4>
+                <h4 class="text-light">Your score:{{yourScore}}</h4>
             </div>
             <div class="computerScore">
-                <h4>Computer score:{{computerScore}}</h4>
+                <h4 class="text-light">Computer score:{{computerScore}}</h4>
             </div>
         </div>
 
         {%if tie%}
-            <h3 class="text-center mt-3 mb-3">Oh! it's tied 😮</h3>
+            <h3 class="text-center text-light mt-3 mb-3">Oh! it's tied 😮</h3>
         {%elif won%}
-            <h3 class="text-center mt-3 mb-3">Yah! you won it 😎</h3>
+            <h3 class="text-center text-light mt-3 mb-3">Yah! you won it 😎</h3>
         {%elif lost%}
-            <h3 class="text-center mt-3 mb-3">Oh! you lost it 😥</h3>  
+            <h3 class="text-center text-light  mb-3">Oh! you lost it 😥</h3>  
         {%endif%}
 
         <div class="choices">
             <div class="yourChoice">
-                <h4>Your choice:{{yourChoice}}</h4>
+                <h4 class="text-light">Your choice:{{yourChoice}}</h4>
             </div>
             <div class="computerChoice">
-                <h4>Computer choice:{{computerChoice}}</h4>
+                <h4 class="text-light">Computer choice:{{computerChoice}}</h4>
             </div>
         </div>
     </div>
-    <h4 class="text-center text-primary mt-5">Do you want to play one more round?</h4>
+    <h4 class="text-center text-light mt-5">Do you want to play one more round?</h4>
     <a class="btn btn-primary nextRound mt-2" href="GameHome">Another round</a>
     <hr class="divider">
     

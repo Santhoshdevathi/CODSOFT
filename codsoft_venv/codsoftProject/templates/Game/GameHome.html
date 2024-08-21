@@ -10,20 +10,20 @@
 </head>
 <body>
     <a class="btn btn-primary ms-5 mt-3" href="quitGame">Home</a>
-    <h1 class="text-secondary text-center mt-2">Rock-Paper-Sciccors</h1>
-    <h1 class="text-primary text-center">🤩Play and Enjoy🤩</h1>
+    <h1 class="text-light text-center mt-2">Rock-Paper-Sciccors</h1>
+    <h1 class="text-light text-center">🤩Play and Enjoy🤩</h1>
     <div class="inputForm">
         <div class="scores">
             <div class="YourScore">
-                <h3>Your Score:{{yourScore}}</h3>
+                <h3 class="text-light">Your Score:{{yourScore}}</h3>
             </div>
             <div class="ComputerScore">
-                <h3>Computer's Score:{{computerScore}}</h3>
+                <h3 class="text-light">Computer's Score:{{computerScore}}</h3>
             </div>   
         </div>
         <form method="post" class="form-group">
             {%csrf_token%}
-            <label for="choice" class="form-label mt-2 ms-3 text-primary">Choose your choice:</label>
+            <label for="choice" class="form-label mt-2 ms-3 text-light">Choose your choice:</label>
             <div class="actualInput">
                 <select name="choice" id="choice" class="form-select mt-2 mb-2 ms-3">
                     <option value="Rock">Rock</option>

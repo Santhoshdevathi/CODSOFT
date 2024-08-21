@@ -8,17 +8,17 @@
     <link rel="stylesheet" href="{%static 'Todo/styles/updateForm.css'%}">
     <title>updateForm</title>
 </head>
+
 <body>
-    <div class="layout">
-        <div class='inputForm'>
-            <form action="updateTodo" method="post" class="form-group mt-5">
-                <h1 class="text-primary text-center mt-3">make the updations</h1>
-                {%csrf_token%}
-                <label for="content" class="form-label text-primary">content:</label>
-                <input id="content" name="content" placeholder={{content}} class="form-control">
-                <button class="btn btn-primary mt-3 mb-3" name="updation" value={{id}}>Submit</button>
-            </form>
-        </div>
+    <a class="btn btn-primary ms-5 mt-3" href="{%url 'todoHome'%}">Back</a>
+    <div class='inputForm'>
+        <form action="updateTodo" method="post" class="form-group mt-5">
+            <h1 class="text-primary text-center mt-3">make the updations</h1>
+            {%csrf_token%}
+            <label for="content" class="form-label">content:</label>
+            <input id="content" name="content" value='{{content}}' class="form-control">
+            <button class="btn btn-primary mt-3 mb-3" name="updation" value={{id}}>Submit</button>
+        </form>
     </div>
 </body>
 </html>

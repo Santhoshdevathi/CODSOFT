@@ -10,16 +10,16 @@
 </head>
 <body>
     <a class="btn btn-primary mt-3 ms-5" href="home">Home</a>
-    <h1 class="text-success text-center mt-3">😎 I made your calculations simple 😎</h1>
+    <h1 class="text-light text-center mt-3">😎 I made your calculations simple 😎</h1>
     <div class="inputForm mt-5">
         <div class="actualForm">
             <form method="post" action="{%url 'CalculatorHome'%}" class="form-group">
                 {%csrf_token%}
-                <label for="first_num" class="form-label p-2">Enter the first number:</label>
+                <label for="first_num" class="form-label p-2 text-light">Enter the first number:</label>
                 <input type="number" name="first_num" id="first_num" class="form-control" required>
-                <label for="second_num" class="form-label p-2">Enter the second number:</label>
+                <label for="second_num" class="form-label p-2 text-light">Enter the second number:</label>
                 <input type="number" name="second_num" id="second_num" class="form-control" required>
-                <label for="operation" class="form-label p-2">Select Operation</label>
+                <label for="operation" class="form-label p-2 text-light">Select Operation</label>
                 <select name="operation" id="operation" class="form-select operations">
                     <option value="add">Addition</option>
                     <option value="subtract">Subtraction</option>
@@ -31,10 +31,10 @@
             </form>
         </div>
         <div class="calculation">
-            <h4 class="text-primary text-center mt-3">Calculation:</h4>
-            <h5 class="text-center">{{num1}} {{operation}} {{num2}} = {{result}}</h5>
+            <h4 class="text-light text-center mt-3">Calculation:</h4>
+            <h5 class="text-center text-light">{{num1}} {{operation}} {{num2}} = {{result}}</h5>
         </div>
     </div>
-    <h1 class="text-primary text-center mt-2">Result:{{result}}</h1>
+    <h1 class="text-light text-center mt-2">Result:{{result}}</h1>
 </body>
 </html>
